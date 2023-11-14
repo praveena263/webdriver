@@ -1,5 +1,22 @@
 {
   "dependencies": {
     "cypress": "^13.3.2"
-  }
+  },
+  "name": "webdriver",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praveena263/webdriver.git"
+  },
+  "author": "Praveena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/praveena263/webdriver/issues"
+  },
+  "homepage": "https://github.com/praveena263/webdriver#readme",
+  "description": ""
 }
