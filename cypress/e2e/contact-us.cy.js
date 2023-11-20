@@ -19,7 +19,6 @@ describe('Test Contact Us form via webdriverUnoi', () => {
     cy.get('[name="last_name"]').type('Kunche');
     cy.get('textarea.feedback-input').type('Hello world');
     cy.get('[type="submit"]').click();
-    cy.contains('h1','Thank You for your Message!').should('be.visible') ;
-    cy.get('[id="fountainG"]').should('be.visible');
+    cy.get('body').contains('Error: all fields are required')
   })
 })
