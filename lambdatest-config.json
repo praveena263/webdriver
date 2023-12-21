@@ -1,0 +1,38 @@
+{
+   "lambdatest_auth": {
+      "username": "veenaamar25",
+      "access_key": "le7LZPG5rXpO5ixDOcbPmbHYVo7LMBb9CQiTTTAZ75oOQGzdcy"
+   },
+   "browsers": [
+      {
+         "browser": "Chrome",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      },
+      {
+         "browser": "Firefox",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      }
+   ],
+   "run_settings": {
+      "reporter_config_file": "base_reporter_config.json",
+      "build_name": "Cypress-build",
+      "parallels": 1,
+      "specs": "./cypress/e2e/contact-us.cy.js",
+      "ignore_files": "",
+      "network": false,
+      "headless": false,
+      "npm_dependencies": {
+         "cypress": "10"
+      }
+   },
+   "tunnel_settings": {
+      "tunnel": false,
+      "tunnel_name": null
+   }
+}
