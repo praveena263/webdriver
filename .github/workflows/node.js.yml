@@ -25,7 +25,7 @@ jobs:
         cache: 'npm'
     - name : cypress run
       working-directory : ./cypress/e2e/contact-us.cy.js
-      run: |
+      run: 
           npm install
           npm run cypress:open
-        |
+        
